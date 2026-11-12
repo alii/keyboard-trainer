@@ -1,0 +1,64 @@
+{
+  "fill": {
+    "linear-gradient": [
+      "display-p3:0.20,0.20,0.42,1.0",
+      "display-p3:0.05,0.05,0.09,1.0"
+    ]
+  },
+  "groups": [
+    {
+      "name": "chord",
+      "layers": [
+        {
+          "name": "tap",
+          "image-name": "tap.svg",
+          "glass": true
+        },
+        {
+          "name": "shift",
+          "image-name": "shift.svg",
+          "glass": true
+        },
+        {
+          "name": "fn",
+          "image-name": "fn.svg",
+          "glass": true
+        }
+      ],
+      "shadow": {
+        "kind": "layer-color",
+        "opacity": 0.6
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.25
+      },
+      "specular": true
+    },
+    {
+      "name": "board",
+      "layers": [
+        {
+          "name": "keys",
+          "image-name": "keys.svg",
+          "glass": true,
+          "opacity": 0.35
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.4
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.6
+      },
+      "specular": true
+    }
+  ],
+  "supported-platforms": {
+    "squares": [
+      "macOS"
+    ]
+  }
+}
